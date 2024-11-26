@@ -28,10 +28,8 @@ with col1:
     st.header("User  Information")
     name = st.text_input("Enter your name:", value="Charles Vincent B. Amposta")
     birthday = st.text_input("Enter your birthday (e.g., May 20, 2006):", value="May 20, 2006")
+    age = st.text("Enter age:" , value="18")
     bio = st.text_area("Enter your bio:", value="I live in Barangay Cayawan Purok-4, Eldest son of Charlie and Virlyn Amposta, a BSCpE student in SNSU")
-
-    # Hardcoded age
-    age = "18"  # You can change this if needed
 
     # New fields for hobbies and interests
     hobbies = st.text_input("Enter your hobbies (comma-separated):")
